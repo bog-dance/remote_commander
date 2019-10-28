@@ -56,4 +56,5 @@ for host in hosts:
     except Exception as e:
         log.write((host + '\n' + str(e) + ' \n'))
 
+
 log.close()
